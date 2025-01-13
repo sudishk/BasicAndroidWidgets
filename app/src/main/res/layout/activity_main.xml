@@ -9,24 +9,21 @@
     tools:context=".MainActivity"
     android:gravity="center">
 
-<!--Below given widgets are basic widget which is commonly used for building ui-->
-
-
-
-
+    <EditText
+        android:id="@+id/enterNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"/>
     <Button
-        android:id="@+id/clickMeButton"
+        android:id="@+id/submitNowButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click Me" />
+        android:text="Submit Now" />
 
     <TextView
-        android:id="@+id/clickMeText"
+        android:id="@+id/submittedText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/black"
-        android:text="Click On Text"
-        android:textColor="@color/white"
         android:textSize="30sp"
         android:padding="15dp"/>
 
