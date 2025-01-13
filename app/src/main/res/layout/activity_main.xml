@@ -9,21 +9,20 @@
     tools:context=".MainActivity"
     android:gravity="center">
 
-    <EditText
-        android:id="@+id/enterNameEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter name"/>
+
     <Button
-        android:id="@+id/submitNowButton"
+        android:id="@+id/clickMeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit Now" />
+        android:text="Click Me" />
 
     <TextView
-        android:id="@+id/submittedText"
+        android:id="@+id/clickMeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Click On Text"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:padding="15dp"/>
 
