@@ -20,12 +20,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val submitNowButton =
-            findViewById<Button>(R.id.submitNowButton) // connecting clickMeButton to clickMeButton variable to performing click event
-        val submittedText =
-            findViewById<TextView>(R.id.submittedText) // connecting clickMeText to clickMeText variable to performing click event
-        val nameEditText =
-            findViewById<TextView>(R.id.enterNameEditText) // connecting clickMeText to clickMeText variable to performing click event
+        val submitNowButton = findViewById<Button>(R.id.submitNowButton) // connecting clickMeButton to clickMeButton variable to performing click event
+        val submittedText = findViewById<TextView>(R.id.submittedText) // connecting clickMeText to clickMeText variable to performing click event
+        val nameEditText = findViewById<TextView>(R.id.enterNameEditText) // connecting clickMeText to clickMeText variable to performing click event
 
         /*
           val nameText = nameEditText.text //text getting
